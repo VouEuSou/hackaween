@@ -1,0 +1,47 @@
+.chatBox{
+    background-color: #FFC4C4;
+    padding: 2rem;
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+  }
+  
+  .card input[type="text"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4rem;
+    background-color: #A26350;
+  }
+  
+  .buttonChat {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonChat svg {
+    width: 60%; 
+    height: 60%;
+  }
+  
+  .buttonChat:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+
+  

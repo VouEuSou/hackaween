@@ -50,6 +50,10 @@
   background-color: #A26350;
   color: white;
 }
+.card input[type="text"]::placeholder {
+  color: white; 
+  opacity: 0.7; 
+}
 
 .buttonChat {
   background-color: aqua;

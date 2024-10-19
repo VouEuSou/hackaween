@@ -12,7 +12,7 @@ function Chatbot() {
   const inputRef = useRef(null);
 
   // Texto fixo que será concatenado com o input do usuário
-  const fixedText = "Tenha um limite de 200 caracteres para a melhor experiência!, sem formatação de texto, por favor., e sem colocar * nos textos";
+  const fixedText = "Tenha um limite de 500 caracteres para a melhor experiência!, sem formatação de texto, por favor, o texto sempre vai se referir a cidade de pelotas, entao se tiver uma pergunta sobre o que fazer hoje ? falar de coisas de pelotas somente, e tire os * dos textos por favor, obrigado!";
 
   async function fetchDataFromGeminiProAPI() {
     try {

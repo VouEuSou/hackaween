@@ -1,47 +1,85 @@
-.chatBox{
-    background-color: #FFC4C4;
-    padding: 2rem;
-    
+.chatBox {
+  background-color: #FFC4C4;
+  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.boneca {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  max-width: 20%;
+}
+
+.data{
+  max-width: 70%;
+  text-align: justify;
+}
+
+.boneca img {
+  width: 100%; 
+  height: auto; 
+}
+
+.boneca h2,
+.boneca p {
+  margin: 0;
+  font-size: 0.8em;
+  text-align: center; 
 }
 
 .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 20px;
-  }
-  
-  .card input[type="text"] {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4rem;
-    background-color: #A26350;
-  }
-  
-  .buttonChat {
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .buttonChat svg {
-    width: 60%; 
-    height: 60%;
-  }
-  
-  .buttonChat:disabled {
-    background-color: gray;
-    cursor: not-allowed;
-  }
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 5px; 
+  padding: 20px;
+}
 
-  
+.card input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4rem;
+  background-color: #A26350;
+  color: white;
+}
+
+.buttonChat {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonChat svg {
+  width: 60%;
+  height: 60%;
+}
+
+.buttonChat:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.chatBox.hidden {
+  display: none;
+}
+
+.chatBox.visible {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+

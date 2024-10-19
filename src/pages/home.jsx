@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import trilha from '../assets/trilha.jpg';
+import trilha from '../assets/trilha.png';
 import './home.css';
 function Home() {
   return (

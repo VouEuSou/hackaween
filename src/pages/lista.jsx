@@ -40,7 +40,7 @@ function Home() {
   </div>
 </article>
     <img src={degrade} id="degrade" />
-    <button id="botaoIA"><Link id='linkzin' to="/lista">Começar</Link></button>
+    <button id="botaoIA"><Link id='linkzin' to="/lista">Digite Algo</Link></button>
 
     </>
   );

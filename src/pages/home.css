@@ -24,12 +24,12 @@ body {
   }
   #botao {
     position: absolute;
-    bottom: 30px; /* Adjust as needed */
+    bottom: -67px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%); /* Horizontally center the button */
     padding: 10px 20px;
     font-size: 20px;
-    min-width: 270px;
+    min-width: 290px;
     border-radius: 200px;
     background-color: #50A27E;
     color: white;

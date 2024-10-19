@@ -1,11 +1,13 @@
-import Chatbot from "./components/chatbot";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import Segunda from './pages/segunda';
 
 function App() {
   return (
-    <>
-      <h1>App Component</h1>
-      <Chatbot />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/segunda" element={<Segunda />} />
+    </Routes>
   );
 }
 

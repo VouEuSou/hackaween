@@ -22,3 +22,19 @@ body {
     font-size: 22px;
     color: #A26350;
   }
+  #botao {
+    position: absolute;
+    bottom: 20px;
+    left: 13%;
+    padding: 10px 20px;
+    font-size: 20px;
+    min-width: 270px;
+    border-radius: 200px;
+    background-color: #50A27E;
+    color: white;
+    border: none;
+  }
+  #linkzin {
+    text-decoration: none;
+    color: white;
+  }

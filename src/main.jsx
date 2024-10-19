@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home.jsx';
-import Segunda from './pages/segunda.jsx';
+import Segunda from './pages/lista.jsx';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -111,7 +111,6 @@ function Chatbot() {
                 />
               </svg>
             )}
-            {loading ? "Carregando..." : ""}
           </button>
         )}
         <hr />

@@ -68,7 +68,7 @@ function Chatbot() {
           ref={inputRef}
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
-          placeholder="Digite seu texto aqui"
+          placeholder="Digite seu texto"
           onFocus={() => {
             setIsChatActive(true);
           }}

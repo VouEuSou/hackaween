@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 body {
-  font-family: "Space Grotesk", sans-serif;
     background: linear-gradient(to bottom, #FDEFEC, #FBE8E1);
-    height: 100vh; /* Faz o gradiente ocupar toda a altura da página */
+    height: 88vh; /* Faz o gradiente ocupar toda a altura da página */
     margin: 0;
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #trilha  {
+    width: 260px;
+    height: 260px;
+  }
+  #titulo {
+    margin: 0;
+    font-size: 60px;
+    color: #50A27E;
+  }
+  #subtitulo {
+    margin: 0;
+    margin-inline: 20px;
+    font-size: 22px;
+    color: #A26350;
   }
